@@ -70,6 +70,10 @@ class Program
         bool resultThree = 5 == 5 || 7 == 6; // is one of the two conditions true: yes
         Console.WriteLine(resultThree);
         
-        
+        // null coalescing operator
+
+        int? possiblyNullValue = null;
+        int notANullNumber = possiblyNullValue ?? 500;
+        Console.WriteLine(notANullNumber);
     }
 }
