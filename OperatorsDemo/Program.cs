@@ -31,7 +31,32 @@ class Program
 
         Console.WriteLine(a); 
         Console.WriteLine(b);
+
+        int c = 5;
+        Console.WriteLine(--c); // pre decrement
+
+        int d = 5;
+        Console.WriteLine(d--); // post decrement
+        Console.WriteLine(d);
         
-        
+        // relational operators
+
+        bool isEqual = 5 == 5;
+        Console.WriteLine(isEqual);
+
+        bool isNotEqual = 5 != 5;
+        Console.WriteLine(isNotEqual);
+
+        bool greaterThan = 5 > 5;
+        Console.WriteLine(greaterThan);
+
+        bool lessThan = 4 < 5;
+        Console.WriteLine(lessThan);
+
+        bool greaterThanOrEqual = 5 >= 5;
+        Console.WriteLine(greaterThanOrEqual);
+
+        bool lessThanOrEqual = 4 <= 2;
+        Console.WriteLine(lessThanOrEqual);
     }
 }
