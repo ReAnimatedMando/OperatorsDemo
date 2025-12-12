@@ -58,5 +58,18 @@ class Program
 
         bool lessThanOrEqual = 4 <= 2;
         Console.WriteLine(lessThanOrEqual);
+        
+        // Logical operators
+
+        bool resultOne = 5 == 5 && 6 >= 3; // are both true; yes
+        Console.WriteLine(resultOne);
+
+        bool resultTwo = 5 == 5 && 6 >= 8; // are both true: no
+        Console.WriteLine(resultTwo);
+
+        bool resultThree = 5 == 5 || 7 == 6; // is one of the two conditions true: yes
+        Console.WriteLine(resultThree);
+        
+        
     }
 }
